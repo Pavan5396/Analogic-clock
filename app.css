@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.background-img{
+    background: url("background");
+    width: 100vw;
+    height:100vh;
+    position: relative;
+}
+
+.circle{
+    background:white ;
+    height:250px;
+    width:250px;
+    border:8px solid rgb(39, 39, 39);
+    border-radius: 50%;
+    position: absolute;
+    top:30%;
+    left: 40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+img{
+    height:250px;
+    width:250px;
+
+}
+
+.hand{
+    background-color :rgb(79, 79, 79); 
+    width:80px;
+    height:4px;
+    border-radius:4px ;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform-origin:0% ;
+    transform: rotate(270deg);
+    /* transition: all 0.8s; */
+    transition-timing-function: ease;
+}
+
+.hour{
+    width: 60px;
+}
+
+.second{
+    height: 2px;
+}
+
+.center{
+    position:absolute;
+    bottom: 47%;
+    right:48% ;
+    width:10px;
+    height:10px;
+    background-color: rgb(54, 54, 54); ;
+    border-radius: 50%;
+}
